@@ -16,7 +16,7 @@
 
 > Links
 
-- [Flask Soft Dashboard](https://appseed.us/product/flask-soft-ui-dashboard) - Product page
+- [Flask Soft Dashboard](#) - (WIP) Product page
 - [Flask Soft Dashboard](https://flask-soft-ui-dashboard.appseed-srv1.com/) - LIVE Demo
 - [Flask Soft Dashboard](https://docs.appseed.us/products/flask-dashboards/soft-ui-dashboard) - Product documentation
 
