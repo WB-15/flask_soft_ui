@@ -4,7 +4,7 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask)** gen
 
 <br />
 
-- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
+- `Up-to-date dependencies`: **Flask 2.0.1**
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **[Soft UI Dashboard](https://bit.ly/2Q1uIfK)** (Free Version) provided by **Creative-Tim**
 - DBMS: SQLite, PostgreSQL (production) 
@@ -20,7 +20,6 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask)** gen
 
 - [Flask Soft UI Dashboard](https://appseed.us/product/flask-soft-ui-dashboard) - product page
 - [Flask Soft UI Dashboard](https://flask-soft-ui-dashboard.appseed-srv1.com/) - LIVE Demo
-- [Flask Soft UI Dashboard](https://docs.appseed.us/products/flask-dashboards/soft-ui-dashboard) - Product documentation
 
 <br />
 
