@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.3] 2021-12-09
+### Improvements
+
+- Bump UI: Soft UI Dashboard **v1.0.3**
+
 ## [1.0.2] 2021-11-08
 ### Improvements
 
