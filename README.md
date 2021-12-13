@@ -8,17 +8,17 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask)** gen
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **[Soft UI Dashboard](https://bit.ly/2Q1uIfK)** (Free Version) provided by **Creative-Tim**
 - DBMS: SQLite, PostgreSQL (production) 
-- DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
+- `DB Tools`: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 - Modular design with **Blueprints**
 - Session-Based authentication (via **flask_login**), Forms validation
-- Deployment scripts: Docker, Gunicorn / Nginx, HEROKU
+- `Deployment`: **Docker**, Gunicorn / Nginx, HEROKU
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
 > Links
 
-- [Flask Soft UI Dashboard](https://appseed.us/product/flask-soft-ui-dashboard) - product page
+- [Flask Soft UI Dashboard](https://appseed.us/product/flask-soft-ui-dashboard) - Product page
 - [Flask Soft UI Dashboard](https://flask-soft-ui-dashboard.appseed-srv1.com/) - LIVE Demo
 
 <br />
