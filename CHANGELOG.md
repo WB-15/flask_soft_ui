@@ -1,10 +1,16 @@
 # Change Log
 
-## [1.0.5] 2022-05-23
+## [1.0.6] 2022-05-25
 ### Improvements
 
+- Built with [Soft UI Dashboard Generator](https://appseed.us/generator/soft-ui-dashboard/)
+  - Timestamp: `2022-05-25 10:05`
 - Added CDN/Static Server management
   - `ASSETS_ROOT` env variable
+
+## [1.0.5] 2022-05-23
+### Improvements 
+
 - UI Update: `Soft UI Dashboard` v1.0.5
   - upgrade Bootstrap version to v5.1.3
   - upgrade ChartJs plugin version to v3.7.1
