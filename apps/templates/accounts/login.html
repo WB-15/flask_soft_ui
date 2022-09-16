@@ -65,7 +65,19 @@
                 </div>
                 <div class="card-footer text-center pt-0 px-lg-2 px-1">
                   <p class="mb-4 text-sm mx-auto">
-                      &nbsp;                    
+
+                    <!-- GitHub button starts here -->
+                    {% if config.SOCIAL_AUTH_GITHUB %}
+                      
+                      <p class="mb-2">or SignIn with</p>
+                      
+                      <a class="btn btn-outline" href="{{url_for('authentication_blueprint.login_github')}}">
+                        <span class="text-lg fs-1 fab fa-github"></span>
+                      </a>
+                          
+                    {% endif %}
+                    <!-- GitHub ends here -->
+                                                           
                   </p>
                 </div>
               </div>
