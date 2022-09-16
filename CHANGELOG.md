@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.8] 2022-09-16
+### Improvements
+
+- Bump Codebase & UI version
+- UI/UX improvements
+  - Links cleanUP
+
 ## [1.0.7] 2022-06-21
 ### Improvements
 
