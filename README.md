@@ -227,8 +227,8 @@ The project is coded using blueprints, app factory pattern, dual configuration p
 > 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
 
 ```bash
-$ git clone https://github.com/app-generator/flask-pixel.git
-$ cd flask-pixel
+$ git clone https://github.com/app-generator/flask-soft-ui-dashboard.git
+$ cd flask-soft-ui-dashboard
 ```
 
 <br />
