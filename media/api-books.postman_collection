@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "6f78b89b-c124-4161-b742-f0da208d880e",
+		"name": "Flask API Generator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3902283"
+	},
+	"item": [
+		{
+			"name": "Get all cities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_address}}/api/cities/",
+					"host": [
+						"{{base_address}}"
+					],
+					"path": [
+						"api",
+						"cities",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a city",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_address}}/api/cities/2/",
+					"host": [
+						"{{base_address}}"
+					],
+					"path": [
+						"api",
+						"cities",
+						"2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a city",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJpbml0X2RhdGUiOjE2NjMzNzg4MDJ9.B7CDGwxSZZzfYSniaAHMGzVjC6-DGdeFqt1EoWiO6zw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Paris",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_address}}/api/cities/",
+					"host": [
+						"{{base_address}}"
+					],
+					"path": [
+						"api",
+						"cities",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a city",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJpbml0X2RhdGUiOjE2NjMzNzg4MDJ9.B7CDGwxSZZzfYSniaAHMGzVjC6-DGdeFqt1EoWiO6zw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "London",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_address}}/api/cities/2/",
+					"host": [
+						"{{base_address}}"
+					],
+					"path": [
+						"api",
+						"cities",
+						"2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a city",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJpbml0X2RhdGUiOjE2NjMzNzg4MDJ9.B7CDGwxSZZzfYSniaAHMGzVjC6-DGdeFqt1EoWiO6zw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{base_address}}/api/cities/2/",
+					"host": [
+						"{{base_address}}"
+					],
+					"path": [
+						"api",
+						"cities",
+						"2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "macho",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "M8K3Dkt4fhnHEa5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_address}}/login/jwt/",
+					"host": [
+						"{{base_address}}"
+					],
+					"path": [
+						"login",
+						"jwt",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_address",
+			"value": "localhost:5000",
+			"type": "string"
+		}
+	]
+}
