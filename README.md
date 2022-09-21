@@ -173,7 +173,12 @@ The API is secured using the JWT tocken provided by `/login/jwt/` request (usern
 - GET requests are public (GET all, get Item)
 - Mutating requests are protected by token generated based on the user credentials (`username`, `pass`). 
 
-> A POSTMAN Collection Sample can be found [here](./media).
+> Two POSTMAN Collections are provided in the `media` directory: 
+
+- [Books API](./media/api-books.postman_collection) - that uses PORT **5000* for the api
+- [Books API 2](./media/api-books-docker.postman_collection) - that uses PORT **5085* for the api (default port in Docker)
+
+In case both port are unusable in your environment, feel free to edit the files before POSTMAN import.
 
 <br />
 
