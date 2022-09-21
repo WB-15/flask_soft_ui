@@ -1,6 +1,12 @@
 # Change Log
 
-## [1.0.10] 2022-09-17
+## [1.0.11] 2022-09-17
+### Improvements
+
+- API Generator `stable version`
+  - POSTMAN samples added 
+
+## [1.0.10] 2022-09-21
 ### Improvements
 
 - API Generator 
