@@ -15,4 +15,7 @@ Flask-Minify==0.37
 Flask-Dance==5.1.0
 blinker==1.4
 pyOpenSSL
+WTForms-Alchemy==0.18.0
+PyJWT~=2.4.0
+
 # flask_mysqldb
