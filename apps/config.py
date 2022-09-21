@@ -56,3 +56,7 @@ config_dict = {
     'Production': ProductionConfig,
     'Debug'     : DebugConfig
 }
+
+API_GENERATOR = {
+    # "books": "Book",
+}
