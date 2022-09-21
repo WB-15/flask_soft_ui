@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.10] 2022-09-17
+### Improvements
+
+- API Generator 
+  - Code generated on top of `Flask-RestX`
+  - Mutating requests secured by JWT 
+
 ## [1.0.9] 2022-09-16
 ### Improvements
 
