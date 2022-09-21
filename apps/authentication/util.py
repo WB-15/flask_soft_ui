@@ -7,6 +7,10 @@ import os
 import hashlib
 import binascii
 
+import jwt
+from datetime import datetime
+from flask import current_app, request
+
 # Inspiration -> https://www.vitoshacademy.com/hashing-passwords-in-python/
 
 
@@ -32,3 +36,15 @@ def verify_pass(provided_password, stored_password):
                                   100000)
     pwdhash = binascii.hexlify(pwdhash).decode('ascii')
     return pwdhash == stored_password
+
+# Used in API Generator
+def generate_token(aUserId):
+    now = int(datetime.utcnow().timestamp())
+    api_token = jwt.encode(
+        {"user_id": aUserId,
+         "init_date": now},
+        current_app.config["SECRET_KEY"],
+        algorithm="HS256"
+    )
+
+    return api_token
