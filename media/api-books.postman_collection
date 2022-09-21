@@ -7,18 +7,18 @@
 	},
 	"item": [
 		{
-			"name": "Get all cities",
+			"name": "Get all books",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_address}}/api/cities/",
+					"raw": "{{base_address}}/api/books/",
 					"host": [
 						"{{base_address}}"
 					],
 					"path": [
 						"api",
-						"cities",
+						"books",
 						""
 					]
 				}
@@ -26,19 +26,19 @@
 			"response": []
 		},
 		{
-			"name": "Get a city",
+			"name": "Get a book",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_address}}/api/cities/2/",
+					"raw": "{{base_address}}/api/books/1/",
 					"host": [
 						"{{base_address}}"
 					],
 					"path": [
 						"api",
-						"cities",
-						"2",
+						"books",
+						"1",
 						""
 					]
 				}
@@ -46,13 +46,13 @@
 			"response": []
 		},
 		{
-			"name": "Create a city",
+			"name": "Create a book",
 			"request": {
 				"method": "POST",
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJpbml0X2RhdGUiOjE2NjMzNzg4MDJ9.B7CDGwxSZZzfYSniaAHMGzVjC6-DGdeFqt1EoWiO6zw",
+						"value": "YOUR_TOKEN_HERE",
 						"type": "text"
 					}
 				],
@@ -60,20 +60,20 @@
 					"mode": "formdata",
 					"formdata": [
 						{
-							"key": "name",
-							"value": "Paris",
+							"key": "title",
+							"value": "Harry Potter",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "{{base_address}}/api/cities/",
+					"raw": "{{base_address}}/api/books/",
 					"host": [
 						"{{base_address}}"
 					],
 					"path": [
 						"api",
-						"cities",
+						"books",
 						""
 					]
 				}
@@ -81,13 +81,13 @@
 			"response": []
 		},
 		{
-			"name": "Update a city",
+			"name": "Update a book",
 			"request": {
 				"method": "PUT",
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJpbml0X2RhdGUiOjE2NjMzNzg4MDJ9.B7CDGwxSZZzfYSniaAHMGzVjC6-DGdeFqt1EoWiO6zw",
+						"value": "YOUR_TOKEN_HERE",
 						"type": "text"
 					}
 				],
@@ -95,21 +95,21 @@
 					"mode": "formdata",
 					"formdata": [
 						{
-							"key": "name",
-							"value": "London",
+							"key": "title",
+							"value": "Harry Potter UPD",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "{{base_address}}/api/cities/2/",
+					"raw": "{{base_address}}/api/books/1/",
 					"host": [
 						"{{base_address}}"
 					],
 					"path": [
 						"api",
-						"cities",
-						"2",
+						"books",
+						"1",
 						""
 					]
 				}
@@ -117,13 +117,13 @@
 			"response": []
 		},
 		{
-			"name": "Delete a city",
+			"name": "Delete a book",
 			"request": {
 				"method": "DELETE",
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJpbml0X2RhdGUiOjE2NjMzNzg4MDJ9.B7CDGwxSZZzfYSniaAHMGzVjC6-DGdeFqt1EoWiO6zw",
+						"value": "YOUR_TOKEN_HERE",
 						"type": "text"
 					}
 				],
@@ -132,14 +132,14 @@
 					"formdata": []
 				},
 				"url": {
-					"raw": "{{base_address}}/api/cities/2/",
+					"raw": "{{base_address}}/api/books/1/",
 					"host": [
 						"{{base_address}}"
 					],
 					"path": [
 						"api",
-						"cities",
-						"2",
+						"books",
+						"1",
 						""
 					]
 				}
@@ -156,12 +156,12 @@
 					"formdata": [
 						{
 							"key": "username",
-							"value": "macho",
+							"value": "test",
 							"type": "text"
 						},
 						{
 							"key": "password",
-							"value": "M8K3Dkt4fhnHEa5",
+							"value": "pass",
 							"type": "text"
 						}
 					]
