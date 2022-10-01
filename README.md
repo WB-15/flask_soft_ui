@@ -158,7 +158,8 @@ This module helps to generate secure APIs using `Flask-restX` via a simple workf
 
 ```bash
 $ flask db init     # this should be executed only once
-$ flask db migrate  # Migrate command should be executed for each DB update
+$ flask db migrate  # Generates the SQL 
+$ flask db upgrade  # Apply changes 
 ```
 
 - Update Configuration:
