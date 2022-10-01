@@ -8,6 +8,7 @@ from datetime import datetime
 
 from flask_restx import Resource, Api
 
+import flask
 from flask import render_template, redirect, request, url_for
 from flask_login import (
     current_user,
@@ -45,18 +46,20 @@ def login_github():
 @blueprint.route('/login', methods=['GET', 'POST'])
 def login():
     login_form = LoginForm(request.form)
-    if 'login' in request.form:
+
+    if flask.request.method == 'POST':
 
         # read form data
         username = request.form['username']
         password = request.form['password']
+
+        #return 'Login: ' + username + ' / ' + password
 
         # Locate user
         user = Users.query.filter_by(username=username).first()
 
         # Check the password
         if user and verify_pass(password, user.password):
-
             login_user(user)
             return redirect(url_for('authentication_blueprint.route_default'))
 
@@ -65,10 +68,11 @@ def login():
                                msg='Wrong user or password',
                                form=login_form)
 
-    if not current_user.is_authenticated:
+    if current_user.is_authenticated:
+        return redirect(url_for('home_blueprint.index'))
+    else:
         return render_template('accounts/login.html',
-                               form=login_form)
-    return redirect(url_for('home_blueprint.index'))
+                               form=login_form) 
 
 
 @blueprint.route('/register', methods=['GET', 'POST'])
