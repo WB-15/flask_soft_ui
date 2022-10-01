@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.12] 2022-10-01
+### Improvements
+
+- Added `API View` page
+  - `Books` API node can be used in page 
+
 ## [1.0.11] 2022-09-17
 ### Improvements
 
