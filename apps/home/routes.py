@@ -13,9 +13,7 @@ from apps.config import API_GENERATOR
 @blueprint.route('/index')
 @login_required
 def index():
-
-    return render_template('home/index.html', segment='index')
-
+    return render_template('home/index.html', segment='index', API_GENERATOR=len(API_GENERATOR))
 
 @blueprint.route('/<template>')
 @login_required
