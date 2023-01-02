@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.0.13] 2023-01-02
+### Changes
+
+- Deployment-ready for Render (CI/CD)
+  - `render.yaml`
+  - `build.sh`
+- `DB Management` Improvement
+  - `Silent fallback` to **SQLite**
+
 ## [1.0.12] 2022-10-01
 ### Improvements
 
