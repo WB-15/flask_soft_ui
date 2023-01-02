@@ -19,3 +19,4 @@ WTForms-Alchemy==0.18.0
 PyJWT~=2.4.0
 
 # flask_mysqldb
+# psycopg2-binary
