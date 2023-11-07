@@ -6,9 +6,9 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask/)** ge
 - 👉 [Soft UI Dashboard Flask](https://flask-soft-ui-dashboard.appseed-srv1.com/) - LIVE Demo
 - 🛒 **[Soft Dashboard Flask PRO](https://appseed.us/product/soft-ui-dashboard-pro/flask/)** - `Premium Version`
 
-<br />
+---
 
-## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `70%Off`
+## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `65%Off`
 
 > `React`, `Django`, `Flask`, and `NodeJs` starters crafted and actively supported by **AppSeed**
  
